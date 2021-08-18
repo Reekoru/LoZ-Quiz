@@ -1,0 +1,150 @@
+:root {
+  --zeldaGray: #494b4b;
+  --zeldaDarkGreen: #0e5135;
+  --zeldGreen: #0d9263;
+  --zeldaLightGreen: #4aba91;
+  --zeldaYellow: #d4ce46;
+}
+
+@font-face {
+  font-family: "hylia_serif_betaregular";
+  src: url("fonts/hyliaserifbeta-regular-webfont.woff2") format("woff2"),
+    url("font/hyliaserifbeta-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: "hylia_serif_betaregular";
+  color: var(--zeldaGray);
+}
+
+body {
+  background-color: black;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.wrapper {
+  position: fixed;
+  background-color: var(--zeldaLightGreen);
+  width: 100%;
+  height: 100%;
+  z-index: -3;
+}
+
+.contentContainer {
+}
+
+.home {
+  position: absolute;
+  left: 25px;
+  top: 25px;
+  width: fit-content;
+  padding: 5px;
+  background-color: white;
+  color: var(--zeldaGray);
+  border-radius: 5px;
+}
+
+#quizContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 20px;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  box-shadow: 5px 5px 20px black;
+  border-radius: 25px;
+  width: 50%;
+  height: 50%;
+}
+
+.backgroundContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-image: url("images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  image-rendering: crisp-edges;
+  filter: blur(1px);
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+}
+.vignette {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 200px rgba(0, 0, 0, 100) inset;
+  z-index: -1;
+}
+
+.header {
+  display: flex;
+  color: var(--zeldaYellow);
+  font-size: 500%;
+  justify-content: center;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
+}
+
+.startButton {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: var(--zeldaYellow);
+  font-size: 300%;
+  border-radius: 15px;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.startButton :hover {
+  transition: 0.5s;
+  color: var(--zeldaGray);
+}
+
+.startButton :active {
+  color: var(--zeldaDarkGreen);
+}
+
+.quizTitle {
+  font-size: 250%;
+  margin-bottom: 25px;
+}
+
+.quizContent {
+  font-size: 150%;
+}
+
+#startQuizButton {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  padding: 10px;
+  font-size: 100%;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--zeldGreen);
+  color: white;
+}
+
+#startQuizButton:hover {
+  transition: 0.2s;
+  cursor: pointer;
+  background-color: var(--zeldaLightGreen);
+}
