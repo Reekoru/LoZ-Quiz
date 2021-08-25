@@ -2,7 +2,7 @@
 
 const quiz = [
     {
-        "Question": "When was the very first Legend of Zelda game released",
+        "Question": "When was the very first Legend of Zelda game released?",
         "Options": ["14, January 1997", "21, February 1986", "14, September 1985", "21, November 1991"], // Array of answers
         "Answer": 1
     },
@@ -17,7 +17,7 @@ const quiz = [
         "Answer": 0
     },
     {
-        "Question": "Which game gives link the title: 'Hero of Light'",
+        "Question": "Which game gives link the title: 'Hero of Light'?",
         "Options": ["Four Sword Adventures", "Ocarina of Time", "Twilight Princess", "A link to the Past"],
         "Answer": 0
     },

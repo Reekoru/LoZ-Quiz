@@ -13,12 +13,11 @@
   </head>
 
   <body>
-    <div class="wrapper"></div>
     <div class="contentContainer">
       <div class="home">
         <a href="index.html"> Home </a>
       </div>
-      <div id="quizContainer">
+      <div class="quizContainer">
         <div class="quizTitle">Instructions</div>
         <div class="quizContent">
           There are a total of <span id="numQuestions">n</span> questions
@@ -30,8 +29,17 @@
           <br />
           2) Pick one answer out of four the questions
           <br />
-          <button id="startQuizButton">Start</button>
+          <button class="quizButton" id="startQuizButton">Start</button>
         </div>
+      </div>
+      <div class="quizContainer" id="quizBox">
+        <div class="quizTitle"><span id="questionOne">Question...</span></div>
+        <div class="quizOptions"><span id="option1">Option One</span></div>
+        <div class="quizOptions"><span id="option2">Option Two</span></div>
+        <div class="quizOptions">
+          <span id="option3">Option Three</span>
+        </div>
+        <div class="quizOptions"><span id="option4">Option Four</span></div>
       </div>
     </div>
     <script src="scripts/quiz.js"></script>
