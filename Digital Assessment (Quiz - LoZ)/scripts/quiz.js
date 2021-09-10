@@ -17,7 +17,7 @@ const quiz = [
         "Answer": 0
     },
     {
-        "Question": "Which game gives link the title: 'Hero of Light'?",
+        "Question": "Which game gives link the title: 'Hero of Light'",
         "Options": ["Four Sword Adventures", "Ocarina of Time", "Twilight Princess", "A link to the Past"],
         "Answer": 0
     },
@@ -28,12 +28,12 @@ const quiz = [
     },
     {
         "Question": "Which of the four is NOT a Zelda CD-I game?",
-        "Options": ["Link: The Faces of Evil", "Link: The Book of Truth", "Zelda’s Adventure", "Zelda: The Wand of Gamelon"],
+        "Options": ["Link: The Faces of Evil", "Link: The Book of Truth", "Zelda's Adventure", "Zelda: The Wand of Gamelon"],
         "Answer": 1
     },
     {
-        "Question": "Which game did the character “Tingle” first appear in?",
-        "Options": ["Wind Waker", "Oracle of Ages", "Majora’s Mask", "Four Swords Adventures"],
+        "Question": "Which game did the character 'Tingle' first appear in?",
+        "Options": ["Wind Waker", "Oracle of Ages", "Majora's Mask", "Four Swords Adventures"],
         "Answer": 2
     },
     {
@@ -53,7 +53,7 @@ const quiz = [
     },
     {
         "Question": "What is said by the old man in the original Legend of Zelda game?",
-        "Options": ["'Take this! It’s dangerous to go alone.'", "'It’s dangerous out there! Take this.'", "'It’s dangerous to go alone! Take this.'", "'It’s dangerous!. Take this.'"],
+        "Options": ["'Take this! It's dangerous to go alone.'", "'It's dangerous out there! Take this.'", "'It's dangerous to go alone! Take this.'", "'It's dangerous!. Take this.'"],
         "Answer": 2
     },
 ]
